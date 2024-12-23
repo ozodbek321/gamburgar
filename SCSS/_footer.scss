@@ -1,0 +1,47 @@
+footer{
+    background-color: #000;
+    min-height: 253px;
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        button{
+            width: 160px;
+            height: 30px;
+            background-color: #4E9F0D;
+            border: 1px solid #6ADF0C;
+            color: #FFFFFF;
+            border-radius: 3px;
+        }
+        h3{
+            color: #4E9F0D;
+            line-height: 28.18px;
+            font-size: 24px;
+            font-weight: 700
+        }
+    }
+    nav{
+        max-width: 695px;
+        margin: auto;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                
+                align-items: center;
+                display: flex;
+                a{
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    p{
+        color: #FFFFFF;
+        line-height: 18.78px;
+        font-size: 16px;
+        font-weight: 100;
+        text-align: center;
+    }
+}
